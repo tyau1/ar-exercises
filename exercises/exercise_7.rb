@@ -10,11 +10,10 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
-# class Employee < ApplicationRecord
-#   validates :first_name, presence: true
-#   validates :last_name, presence: true
+
 # end
 puts "Testing validation"
-@store1.employees.create(first_name: "Rohit", last_name: "Dhand", hourly_rate: 20)
-# validates :hourly_rate range (integer between 40 and 200)
-# validates_associated :store_id
+# @store1.employees.create(last_name: "Dhand", hourly_rate: 60)
+# @store1.employees.create(first_name: "Rohit", hourly_rate: 60)
+# @store1.employees.create(first_name: "Rohit", last_name: "Dhand", hourly_rate: 20)
+# Employees.create(first_name: "Rohit", last_name: "Dhand", hourly_rate: 50)
